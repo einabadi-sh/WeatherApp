@@ -79,7 +79,8 @@ Partial Class Weather_App
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1049, 40)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1282, 46)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -87,105 +88,106 @@ Partial Class Weather_App
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(64, 36)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(72, 42)
         Me.FileToolStripMenuItem.Text = "&File"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(139, 36)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(155, 42)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'EditToolStripMenuItem
         '
         Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PreferencesToolStripMenuItem})
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(67, 36)
+        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(75, 42)
         Me.EditToolStripMenuItem.Text = "&Edit"
         '
         'PreferencesToolStripMenuItem
         '
         Me.PreferencesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DetailedInformationToolStripMenuItem, Me.LanguageToolStripMenuItem, Me.SortLocationsToolStripMenuItem})
         Me.PreferencesToolStripMenuItem.Name = "PreferencesToolStripMenuItem"
-        Me.PreferencesToolStripMenuItem.Size = New System.Drawing.Size(252, 36)
+        Me.PreferencesToolStripMenuItem.Size = New System.Drawing.Size(258, 42)
         Me.PreferencesToolStripMenuItem.Text = "Preferences"
         '
         'DetailedInformationToolStripMenuItem
         '
         Me.DetailedInformationToolStripMenuItem.CheckOnClick = True
         Me.DetailedInformationToolStripMenuItem.Name = "DetailedInformationToolStripMenuItem"
-        Me.DetailedInformationToolStripMenuItem.Size = New System.Drawing.Size(323, 36)
+        Me.DetailedInformationToolStripMenuItem.Size = New System.Drawing.Size(367, 42)
         Me.DetailedInformationToolStripMenuItem.Text = "Detailed information"
         '
         'LanguageToolStripMenuItem
         '
         Me.LanguageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem, Me.FrenchToolStripMenuItem, Me.PersianToolStripMenuItem})
         Me.LanguageToolStripMenuItem.Name = "LanguageToolStripMenuItem"
-        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(323, 36)
+        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(367, 42)
         Me.LanguageToolStripMenuItem.Text = "Language"
         '
         'EnglishToolStripMenuItem
         '
         Me.EnglishToolStripMenuItem.CheckOnClick = True
         Me.EnglishToolStripMenuItem.Name = "EnglishToolStripMenuItem"
-        Me.EnglishToolStripMenuItem.Size = New System.Drawing.Size(252, 36)
+        Me.EnglishToolStripMenuItem.Size = New System.Drawing.Size(208, 42)
         Me.EnglishToolStripMenuItem.Text = "English"
         '
         'FrenchToolStripMenuItem
         '
         Me.FrenchToolStripMenuItem.CheckOnClick = True
         Me.FrenchToolStripMenuItem.Name = "FrenchToolStripMenuItem"
-        Me.FrenchToolStripMenuItem.Size = New System.Drawing.Size(252, 36)
+        Me.FrenchToolStripMenuItem.Size = New System.Drawing.Size(208, 42)
         Me.FrenchToolStripMenuItem.Text = "French"
         '
         'PersianToolStripMenuItem
         '
         Me.PersianToolStripMenuItem.CheckOnClick = True
         Me.PersianToolStripMenuItem.Name = "PersianToolStripMenuItem"
-        Me.PersianToolStripMenuItem.Size = New System.Drawing.Size(252, 36)
+        Me.PersianToolStripMenuItem.Size = New System.Drawing.Size(208, 42)
         Me.PersianToolStripMenuItem.Text = "Spanish"
         '
         'SortLocationsToolStripMenuItem
         '
         Me.SortLocationsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AscendingToolStripMenuItem, Me.DescendingToolStripMenuItem})
         Me.SortLocationsToolStripMenuItem.Name = "SortLocationsToolStripMenuItem"
-        Me.SortLocationsToolStripMenuItem.Size = New System.Drawing.Size(323, 36)
+        Me.SortLocationsToolStripMenuItem.Size = New System.Drawing.Size(367, 42)
         Me.SortLocationsToolStripMenuItem.Text = "Sort Locations"
         '
         'AscendingToolStripMenuItem
         '
         Me.AscendingToolStripMenuItem.CheckOnClick = True
         Me.AscendingToolStripMenuItem.Name = "AscendingToolStripMenuItem"
-        Me.AscendingToolStripMenuItem.Size = New System.Drawing.Size(228, 36)
+        Me.AscendingToolStripMenuItem.Size = New System.Drawing.Size(258, 42)
         Me.AscendingToolStripMenuItem.Text = "Ascending"
         '
         'DescendingToolStripMenuItem
         '
         Me.DescendingToolStripMenuItem.CheckOnClick = True
         Me.DescendingToolStripMenuItem.Name = "DescendingToolStripMenuItem"
-        Me.DescendingToolStripMenuItem.Size = New System.Drawing.Size(228, 36)
+        Me.DescendingToolStripMenuItem.Size = New System.Drawing.Size(258, 42)
         Me.DescendingToolStripMenuItem.Text = "Descending"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(77, 36)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(87, 42)
         Me.HelpToolStripMenuItem.Text = "&Help"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(167, 36)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(187, 42)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(49, 64)
+        Me.Label1.Location = New System.Drawing.Point(60, 77)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(126, 32)
+        Me.Label1.Size = New System.Drawing.Size(145, 38)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Province"
         '
@@ -193,9 +195,10 @@ Partial Class Weather_App
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(400, 64)
+        Me.Label2.Location = New System.Drawing.Point(489, 77)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(64, 32)
+        Me.Label2.Size = New System.Drawing.Size(74, 38)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "City"
         '
@@ -203,26 +206,29 @@ Partial Class Weather_App
         '
         Me.cmbProvince.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbProvince.FormattingEnabled = True
-        Me.cmbProvince.Location = New System.Drawing.Point(56, 99)
+        Me.cmbProvince.Location = New System.Drawing.Point(68, 119)
+        Me.cmbProvince.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbProvince.Name = "cmbProvince"
-        Me.cmbProvince.Size = New System.Drawing.Size(250, 40)
+        Me.cmbProvince.Size = New System.Drawing.Size(305, 46)
         Me.cmbProvince.TabIndex = 3
         '
         'cmbCity
         '
         Me.cmbCity.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbCity.FormattingEnabled = True
-        Me.cmbCity.Location = New System.Drawing.Point(390, 99)
+        Me.cmbCity.Location = New System.Drawing.Point(477, 119)
+        Me.cmbCity.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbCity.Name = "cmbCity"
-        Me.cmbCity.Size = New System.Drawing.Size(250, 40)
+        Me.cmbCity.Size = New System.Drawing.Size(305, 46)
         Me.cmbCity.TabIndex = 4
         '
         'btnShowWeather
         '
         Me.btnShowWeather.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnShowWeather.Location = New System.Drawing.Point(724, 104)
+        Me.btnShowWeather.Location = New System.Drawing.Point(885, 125)
+        Me.btnShowWeather.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnShowWeather.Name = "btnShowWeather"
-        Me.btnShowWeather.Size = New System.Drawing.Size(250, 40)
+        Me.btnShowWeather.Size = New System.Drawing.Size(306, 48)
         Me.btnShowWeather.TabIndex = 5
         Me.btnShowWeather.Text = "Show Weather"
         Me.btnShowWeather.UseVisualStyleBackColor = True
@@ -254,18 +260,21 @@ Partial Class Weather_App
         Me.GroupBox1.Controls.Add(Me.lblWeather)
         Me.GroupBox1.Controls.Add(Me.lblCity)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(56, 178)
+        Me.GroupBox1.Location = New System.Drawing.Point(68, 214)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(951, 478)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(1162, 574)
         Me.GroupBox1.TabIndex = 6
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Weather Information"
         '
         'picbWeather
         '
-        Me.picbWeather.Location = New System.Drawing.Point(679, 29)
+        Me.picbWeather.Location = New System.Drawing.Point(830, 35)
+        Me.picbWeather.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picbWeather.Name = "picbWeather"
-        Me.picbWeather.Size = New System.Drawing.Size(150, 150)
+        Me.picbWeather.Size = New System.Drawing.Size(183, 180)
         Me.picbWeather.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picbWeather.TabIndex = 24
         Me.picbWeather.TabStop = False
@@ -274,197 +283,219 @@ Partial Class Weather_App
         '
         Me.txtbCloudiness.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbCloudiness.Enabled = False
-        Me.txtbCloudiness.Location = New System.Drawing.Point(676, 425)
+        Me.txtbCloudiness.Location = New System.Drawing.Point(826, 510)
+        Me.txtbCloudiness.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbCloudiness.Name = "txtbCloudiness"
-        Me.txtbCloudiness.Size = New System.Drawing.Size(250, 28)
+        Me.txtbCloudiness.Size = New System.Drawing.Size(306, 32)
         Me.txtbCloudiness.TabIndex = 23
         '
         'txtbWindSpeed
         '
         Me.txtbWindSpeed.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbWindSpeed.Enabled = False
-        Me.txtbWindSpeed.Location = New System.Drawing.Point(684, 370)
+        Me.txtbWindSpeed.Location = New System.Drawing.Point(836, 444)
+        Me.txtbWindSpeed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbWindSpeed.Name = "txtbWindSpeed"
-        Me.txtbWindSpeed.Size = New System.Drawing.Size(250, 28)
+        Me.txtbWindSpeed.Size = New System.Drawing.Size(306, 32)
         Me.txtbWindSpeed.TabIndex = 22
         '
         'txtbLon
         '
         Me.txtbLon.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbLon.Enabled = False
-        Me.txtbLon.Location = New System.Drawing.Point(668, 315)
+        Me.txtbLon.Location = New System.Drawing.Point(816, 378)
+        Me.txtbLon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbLon.Name = "txtbLon"
-        Me.txtbLon.Size = New System.Drawing.Size(250, 28)
+        Me.txtbLon.Size = New System.Drawing.Size(306, 32)
         Me.txtbLon.TabIndex = 21
         '
         'txtbLat
         '
         Me.txtbLat.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbLat.Enabled = False
-        Me.txtbLat.Location = New System.Drawing.Point(640, 260)
+        Me.txtbLat.Location = New System.Drawing.Point(782, 312)
+        Me.txtbLat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbLat.Name = "txtbLat"
-        Me.txtbLat.Size = New System.Drawing.Size(250, 28)
+        Me.txtbLat.Size = New System.Drawing.Size(306, 32)
         Me.txtbLat.TabIndex = 20
         '
         'txtbDetailed
         '
         Me.txtbDetailed.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbDetailed.Enabled = False
-        Me.txtbDetailed.Location = New System.Drawing.Point(645, 205)
+        Me.txtbDetailed.Location = New System.Drawing.Point(788, 246)
+        Me.txtbDetailed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbDetailed.Name = "txtbDetailed"
-        Me.txtbDetailed.Size = New System.Drawing.Size(250, 28)
+        Me.txtbDetailed.Size = New System.Drawing.Size(306, 32)
         Me.txtbDetailed.TabIndex = 19
         '
         'txtbTempMin
         '
         Me.txtbTempMin.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbTempMin.Enabled = False
-        Me.txtbTempMin.Location = New System.Drawing.Point(266, 425)
+        Me.txtbTempMin.Location = New System.Drawing.Point(325, 510)
+        Me.txtbTempMin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbTempMin.Name = "txtbTempMin"
-        Me.txtbTempMin.Size = New System.Drawing.Size(250, 28)
+        Me.txtbTempMin.Size = New System.Drawing.Size(306, 32)
         Me.txtbTempMin.TabIndex = 18
         '
         'txtbTempMax
         '
         Me.txtbTempMax.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbTempMax.Enabled = False
-        Me.txtbTempMax.Location = New System.Drawing.Point(271, 370)
+        Me.txtbTempMax.Location = New System.Drawing.Point(331, 444)
+        Me.txtbTempMax.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbTempMax.Name = "txtbTempMax"
-        Me.txtbTempMax.Size = New System.Drawing.Size(250, 28)
+        Me.txtbTempMax.Size = New System.Drawing.Size(306, 32)
         Me.txtbTempMax.TabIndex = 17
         '
         'txtbHumidity
         '
         Me.txtbHumidity.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbHumidity.Enabled = False
-        Me.txtbHumidity.Location = New System.Drawing.Point(184, 315)
+        Me.txtbHumidity.Location = New System.Drawing.Point(225, 378)
+        Me.txtbHumidity.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbHumidity.Name = "txtbHumidity"
-        Me.txtbHumidity.Size = New System.Drawing.Size(250, 28)
+        Me.txtbHumidity.Size = New System.Drawing.Size(306, 32)
         Me.txtbHumidity.TabIndex = 16
         '
         'txtbPressure
         '
         Me.txtbPressure.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbPressure.Enabled = False
-        Me.txtbPressure.Location = New System.Drawing.Point(188, 260)
+        Me.txtbPressure.Location = New System.Drawing.Point(230, 312)
+        Me.txtbPressure.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbPressure.Name = "txtbPressure"
-        Me.txtbPressure.Size = New System.Drawing.Size(250, 28)
+        Me.txtbPressure.Size = New System.Drawing.Size(306, 32)
         Me.txtbPressure.TabIndex = 15
         '
         'txtbTemp
         '
         Me.txtbTemp.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbTemp.Enabled = False
-        Me.txtbTemp.Location = New System.Drawing.Point(231, 205)
+        Me.txtbTemp.Location = New System.Drawing.Point(282, 246)
+        Me.txtbTemp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbTemp.Name = "txtbTemp"
-        Me.txtbTemp.Size = New System.Drawing.Size(250, 28)
+        Me.txtbTemp.Size = New System.Drawing.Size(306, 32)
         Me.txtbTemp.TabIndex = 14
         '
         'txtbWeather
         '
         Me.txtbWeather.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtbWeather.Enabled = False
-        Me.txtbWeather.Location = New System.Drawing.Point(194, 150)
+        Me.txtbWeather.Location = New System.Drawing.Point(237, 180)
+        Me.txtbWeather.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtbWeather.Name = "txtbWeather"
-        Me.txtbWeather.Size = New System.Drawing.Size(250, 28)
+        Me.txtbWeather.Size = New System.Drawing.Size(306, 32)
         Me.txtbWeather.TabIndex = 13
         '
         'lblCloudiness
         '
         Me.lblCloudiness.AutoSize = True
-        Me.lblCloudiness.Location = New System.Drawing.Point(530, 425)
+        Me.lblCloudiness.Location = New System.Drawing.Point(648, 510)
+        Me.lblCloudiness.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCloudiness.Name = "lblCloudiness"
-        Me.lblCloudiness.Size = New System.Drawing.Size(140, 29)
+        Me.lblCloudiness.Size = New System.Drawing.Size(165, 32)
         Me.lblCloudiness.TabIndex = 12
         Me.lblCloudiness.Text = "Cloudiness:"
         '
         'lblWindSpeed
         '
         Me.lblWindSpeed.AutoSize = True
-        Me.lblWindSpeed.Location = New System.Drawing.Point(530, 370)
+        Me.lblWindSpeed.Location = New System.Drawing.Point(648, 444)
+        Me.lblWindSpeed.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblWindSpeed.Name = "lblWindSpeed"
-        Me.lblWindSpeed.Size = New System.Drawing.Size(148, 29)
+        Me.lblWindSpeed.Size = New System.Drawing.Size(173, 32)
         Me.lblWindSpeed.TabIndex = 11
         Me.lblWindSpeed.Text = "Wind speed:"
         '
         'lblLon
         '
         Me.lblLon.AutoSize = True
-        Me.lblLon.Location = New System.Drawing.Point(530, 315)
+        Me.lblLon.Location = New System.Drawing.Point(648, 378)
+        Me.lblLon.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblLon.Name = "lblLon"
-        Me.lblLon.Size = New System.Drawing.Size(132, 29)
+        Me.lblLon.Size = New System.Drawing.Size(158, 32)
         Me.lblLon.TabIndex = 10
         Me.lblLon.Text = "Longtitude:"
         '
         'lblLat
         '
         Me.lblLat.AutoSize = True
-        Me.lblLat.Location = New System.Drawing.Point(530, 260)
+        Me.lblLat.Location = New System.Drawing.Point(648, 312)
+        Me.lblLat.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblLat.Name = "lblLat"
-        Me.lblLat.Size = New System.Drawing.Size(104, 29)
+        Me.lblLat.Size = New System.Drawing.Size(126, 32)
         Me.lblLat.TabIndex = 9
         Me.lblLat.Text = "Latitude:"
         '
         'lblDetailed
         '
         Me.lblDetailed.AutoSize = True
-        Me.lblDetailed.Location = New System.Drawing.Point(530, 205)
+        Me.lblDetailed.Location = New System.Drawing.Point(648, 246)
+        Me.lblDetailed.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDetailed.Name = "lblDetailed"
-        Me.lblDetailed.Size = New System.Drawing.Size(109, 29)
+        Me.lblDetailed.Size = New System.Drawing.Size(129, 32)
         Me.lblDetailed.TabIndex = 8
         Me.lblDetailed.Text = "Detailed:"
         '
         'lblMinTemp
         '
         Me.lblMinTemp.AutoSize = True
-        Me.lblMinTemp.Location = New System.Drawing.Point(66, 425)
+        Me.lblMinTemp.Location = New System.Drawing.Point(81, 510)
+        Me.lblMinTemp.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblMinTemp.Name = "lblMinTemp"
-        Me.lblMinTemp.Size = New System.Drawing.Size(194, 29)
+        Me.lblMinTemp.Size = New System.Drawing.Size(229, 32)
         Me.lblMinTemp.TabIndex = 6
         Me.lblMinTemp.Text = "MIn temperature:"
         '
         'lblMaxTemp
         '
         Me.lblMaxTemp.AutoSize = True
-        Me.lblMaxTemp.Location = New System.Drawing.Point(66, 370)
+        Me.lblMaxTemp.Location = New System.Drawing.Point(81, 444)
+        Me.lblMaxTemp.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblMaxTemp.Name = "lblMaxTemp"
-        Me.lblMaxTemp.Size = New System.Drawing.Size(199, 29)
+        Me.lblMaxTemp.Size = New System.Drawing.Size(236, 32)
         Me.lblMaxTemp.TabIndex = 5
         Me.lblMaxTemp.Text = "Max temperature:"
         '
         'lblHumidity
         '
         Me.lblHumidity.AutoSize = True
-        Me.lblHumidity.Location = New System.Drawing.Point(66, 315)
+        Me.lblHumidity.Location = New System.Drawing.Point(81, 378)
+        Me.lblHumidity.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblHumidity.Name = "lblHumidity"
-        Me.lblHumidity.Size = New System.Drawing.Size(112, 29)
+        Me.lblHumidity.Size = New System.Drawing.Size(134, 32)
         Me.lblHumidity.TabIndex = 4
         Me.lblHumidity.Text = "Humidity:"
         '
         'lblPressure
         '
         Me.lblPressure.AutoSize = True
-        Me.lblPressure.Location = New System.Drawing.Point(66, 260)
+        Me.lblPressure.Location = New System.Drawing.Point(81, 312)
+        Me.lblPressure.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblPressure.Name = "lblPressure"
-        Me.lblPressure.Size = New System.Drawing.Size(116, 29)
+        Me.lblPressure.Size = New System.Drawing.Size(136, 32)
         Me.lblPressure.TabIndex = 3
         Me.lblPressure.Text = "Pressure:"
         '
         'lblTemp
         '
         Me.lblTemp.AutoSize = True
-        Me.lblTemp.Location = New System.Drawing.Point(66, 205)
+        Me.lblTemp.Location = New System.Drawing.Point(81, 246)
+        Me.lblTemp.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTemp.Name = "lblTemp"
-        Me.lblTemp.Size = New System.Drawing.Size(159, 29)
+        Me.lblTemp.Size = New System.Drawing.Size(185, 32)
         Me.lblTemp.TabIndex = 2
         Me.lblTemp.Text = "Temperature:"
         '
         'lblWeather
         '
         Me.lblWeather.AutoSize = True
-        Me.lblWeather.Location = New System.Drawing.Point(66, 150)
+        Me.lblWeather.Location = New System.Drawing.Point(81, 180)
+        Me.lblWeather.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblWeather.Name = "lblWeather"
-        Me.lblWeather.Size = New System.Drawing.Size(115, 29)
+        Me.lblWeather.Size = New System.Drawing.Size(137, 32)
         Me.lblWeather.TabIndex = 1
         Me.lblWeather.Text = "Weather: "
         '
@@ -472,16 +503,17 @@ Partial Class Weather_App
         '
         Me.lblCity.AutoSize = True
         Me.lblCity.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCity.Location = New System.Drawing.Point(20, 63)
+        Me.lblCity.Location = New System.Drawing.Point(24, 76)
+        Me.lblCity.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCity.Name = "lblCity"
-        Me.lblCity.Size = New System.Drawing.Size(0, 46)
+        Me.lblCity.Size = New System.Drawing.Size(0, 54)
         Me.lblCity.TabIndex = 0
         '
-        'Exam_Shahab_Einabadi
+        'Weather_App
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1049, 680)
+        Me.ClientSize = New System.Drawing.Size(1282, 816)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnShowWeather)
         Me.Controls.Add(Me.cmbCity)
@@ -490,8 +522,9 @@ Partial Class Weather_App
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Name = "Exam_Shahab_Einabadi"
-        Me.Text = "The Weather Guru"
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Name = "Weather_App"
+        Me.Text = "The Weather App"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)

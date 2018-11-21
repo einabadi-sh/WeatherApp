@@ -8,8 +8,8 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("The Weather Guru")>
-<Assembly: AssemblyDescription("The Weather Guru is a Windows GUI application that presents current weather information at a selected canadian city, based on a service provided by OpenWeatherMap.")>
+<Assembly: AssemblyTitle("The Weather Application")>
+<Assembly: AssemblyDescription("The Weather Application is a Windows GUI application that presents current weather information at a selected canadian city, based on a service provided by OpenWeatherMap.")>
 <Assembly: AssemblyCompany("Vanier College")>
 <Assembly: AssemblyProduct("Shahab Einabadi")>
 <Assembly: AssemblyCopyright("Copyright ©  2018")>

@@ -8,5 +8,5 @@ city selected by the user. The website will Then answer the request sending back
 requested information, which will be processed and presented to the user.
 
 
-![Image of App](https://octodex.github.com/images/yaktocat.png)
+![weatherapp](https://user-images.githubusercontent.com/27699259/49125568-7e1e6880-f28e-11e8-8ada-398565a22684.png)
 
